@@ -1,0 +1,161 @@
+*
+{
+	font-family: arial;
+}
+#conteneur
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 15px;
+}
+.Gmail
+{
+	margin-right: 10px;
+	margin-top: 15px;
+}
+.Images
+{
+	margin: 5px;
+	margin-top: 15px;
+}
+.Products
+{
+	margin:5px;
+	margin-top: 15px;
+}
+.Compte
+{
+	margin: 5px;
+	margin-top: 15px;
+
+}
+
+.connexionbtn 
+{
+	background-color: #4169E1;
+    color: white;
+}
+
+.logo
+{
+	display: flex;
+	justify-content: center;
+	margin: 125px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #D8D8D8;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #D8D8D8;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.searchButton {
+  width: 80px;
+  height: 36px;
+  border: 1px solid #D8D8D8;
+  background: #4169E1;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boutons
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: -90px;
+}
+
+.gestes
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top:-5px;
+}
+.covid
+{
+	margin-top: 20px;
+}
+
+.liencovid
+{
+	margin-top: 31px;
+	margin-left: 10px;
+}
+.trait
+{
+	margin-top: 167px;
+}
+
+
+#footerfrance 
+{
+	
+  background-color: #f2f2f2;
+  width: 100%;
+  height:100px;
+  border-top: 1px;
+  line-height: 40px;
+  bottom: 0;
+  position: absolute;
+  padding: 0;
+  margin-left: -10px;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 40px;
+  border-top: 1px;
+  line-height: 40px;
+  bottom: 0;
+  position: absolute;
+  padding: 0;
+  margin-left: -10px;
+}
+
+.footergauche {
+	float: left;
+	margin-left: 16px;
+}
+
+.footerdroit {
+	float: right;
+	margin-right: 16px;
+}
+
